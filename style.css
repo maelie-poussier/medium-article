@@ -1,0 +1,65 @@
+.banner {
+  background-image: url(https://source.unsplash.com/random);
+  text-align: center;
+  padding: 200px;
+  color: #e7305b;
+  background-size: cover;
+}
+
+.container{
+  margin: 50px auto;
+}
+
+h2{
+  color: #24a19c;
+  font-family: 'Rowdies', cursive;
+}
+
+p{
+  font-family: 'Rowdies', cursive;
+}
+
+.link-medium{
+  background-image: linear-gradient(to bottom, #ffe4e4, #cbeaed);
+  color: #df5e88;
+  text-decoration: none;
+}
+
+.link-medium:hover {
+  color: #df5e88;
+  background-image: linear-gradient(to bottom, #8fcfd1, #8fcfd1)
+}
+
+.container{
+  background-color: #f4f6ff;
+  border: 2px solid pink;
+  border-radius: 5px;
+  box-shadow: 2px 2px 6px black;
+  text-align: center;
+  padding: 30px;
+  margin: 30px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 800px;
+  }
+}
+
+@media (max-width: 768px) {
+    .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 400px;
+  }
+}
